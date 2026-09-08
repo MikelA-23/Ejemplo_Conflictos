@@ -17,5 +17,6 @@ public class Main {
         obj.setNumB(numB);
         obj.setNumC(numC);
         System.out.println("EL valor del resultado de la suma es: "+obj.obtenerSuma());
+        System.out.println("      ");
     }
 }

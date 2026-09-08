@@ -30,4 +30,5 @@ public class SumarNumeros {
     public int obtenerSuma(){
         return numA+numB+numC;
     }
+    /*supuestamente aqui hago la suma, lo tenia hecho desde antes*/
 }
