@@ -7,7 +7,6 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         SumarNumeros obj = new SumarNumeros();
         int numA,numB,numC;
-        System.out.println("Ejemplo de sumar tres numeros");
         System.out.println("Ingrese el valor del numero A:");
         numA=Integer.parseInt(br.readLine());
         System.out.println("Ingrese el valor del numero B:");
@@ -18,6 +17,6 @@ public class Main {
         obj.setNumB(numB);
         obj.setNumC(numC);
         System.out.println("EL valor del resultado de la suma es: "+obj.obtenerSuma());
-        System.out.println("    ");
+        System.out.println("      ");
     }
 }
